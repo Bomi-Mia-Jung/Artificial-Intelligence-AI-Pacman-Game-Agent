@@ -1,4 +1,5 @@
-## Project 1: Intelligent Search Algorithms
+Project 1: Intelligent Search Algorithms
+
 Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), 
 I ultimately built up to implementing an intelligent search algorithm, A* (A-Star), and designed a non-trivial and consistent heuristic 
 (one that combines multiple heuristics appropriately) to incorporate domain knowledge into the Pacman Agent's search through the maze to collect food pellets.

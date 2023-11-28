@@ -14,16 +14,15 @@ Full Attribution:
   
   Attribution Information: The Pacman AI projects were developed at UC Berkeley.
   The core projects and autograders were primarily created by John DeNero (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
-  Student side autograding was added by Brad Miller, Nick Hay, and Pieter Abbeel (pabbeel@cs.berkeley.edu).
+  Student-side autograding was added by Brad Miller, Nick Hay, and Pieter Abbeel (pabbeel@cs.berkeley.edu).
 
 
 ## Project 1: Intelligent Search Algorithms
 Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), 
 I ultimately built up to implementing an intelligent search algorithm, A* (A-Star), and designed a non-trivial and consistent heuristic 
-that combines multiple heuristics appropriately to incorporate domain knowledge into the Pacman Agent's search through the maze to collect food pellets.
+(one that combines multiple heuristics appropriately) to incorporate domain knowledge into the Pacman Agent's search through the maze to collect food pellets.
 
-Check out search.py to view the search algorithm implementations, and searchAgents.py to view the code that contains the search-based agents. 
-The other files in this project are support files that mostly help with graphics display.
+https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/87403b71-105e-41a5-a2fe-cfd5fb3ee1c4
 
 https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/97442973-495b-4aa1-9c6c-e4cbaac86195
 

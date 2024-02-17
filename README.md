@@ -1,4 +1,6 @@
 # Artificial-Intelligence-AI-Pacman-Game-Agent
+![image](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/9e7ad900-d314-47c9-ac7b-da4b15bdf206)
+
 This repo contains my journey of implementing and training Artificially Intelligent Pacman Game Agents using Python. 
 
 This project extends the AI Pacman Project developed by U.C. Berkely. 
@@ -7,7 +9,7 @@ Attribution to their website here: http://ai.berkeley.edu.
 Due to the fact that Berkely asks those who use and extend their project to NOT publish solutions/implementations to their pacman projects, 
 I have only included the source code as well as video clips of my implemented and trained AI agents in action.
 
-## Project 1: Intelligent Search Algorithms
+## Project 1: Intelligent Path Search Algorithms
 Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), 
 I ultimately built up to implementing an intelligent search algorithm, A* (A-Star), and designed a non-trivial and consistent heuristic 
 (one that combines multiple heuristics appropriately) to incorporate domain knowledge into the Pacman Agent's search through the maze to collect food pellets.
@@ -18,4 +20,4 @@ https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/as
 
 https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/97442973-495b-4aa1-9c6c-e4cbaac86195
 
-
+## Project 2: 

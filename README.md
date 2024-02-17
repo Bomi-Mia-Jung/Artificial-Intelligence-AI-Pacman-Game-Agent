@@ -4,8 +4,8 @@ This repo contains my journey of implementing and training Artificially Intellig
 This project extends the AI Pacman Project developed by U.C. Berkely. 
 Attribution to their website here: http://ai.berkeley.edu.
 
-Due to the fact that Berkely asks those who use and extend their project to NOT publish solutions, 
-I have only included the source code I used, as well as video clips of my implemented and trained AI agents in action.
+Due to the fact that Berkely asks those who use and extend their project to NOT publish solutions/implementations to their pacman projects, 
+I have only included the source code as well as video clips of my implemented and trained AI agents in action.
 
 ## Project 1: Intelligent Search Algorithms
 Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), 

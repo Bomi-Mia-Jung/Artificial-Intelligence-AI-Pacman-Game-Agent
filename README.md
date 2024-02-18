@@ -5,7 +5,7 @@ This repo contains my journey of implementing and training Artificially Intellig
 
 This project implements and extends the AI Pacman Project developed by U.C. Berkely. (Attribution to their website here: [http://ai.berkeley.edu](http://ai.berkeley.edu/project_overview.html).) 
 
-Due to the fact that they asks those who use and extend their project to not publish solutions/implementations to their pacman projects, I did not upload my code to this repo, only including the source code as well as video clips of my implemented and trained AI agents in action.
+Due to the fact that they asks those who use and extend their project to not publish solutions/implementations to their pacman projects, I only uploaded the source code as well as video clips of my implemented and trained AI agents in action in this repo.
 
 ## Project 1: Intelligent Path Search Algorithms
 Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), 
@@ -30,6 +30,9 @@ python pacman.py --frameTime 0 -p ReflexAgent -k 2
 Now, it's time to make a more sophisticated decision-making pacman, who considers not only the current state, but also future possible states and the strategies of his ghost opponents. The following shows my adversarial Pacman with minimax- note that he isn't too great at gameplay against ghosts just yet, and he ends up dying. But don't worry- we'll make him better as we go. Here's the first adversarial agent pacman whose thinking is atrociously slow and whose gamestate evaluation methods aren't great (he's not interested in food- he just wants to avoid his adversaries):
 
 ![minimaxGameplay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/d6519a2b-56b3-4b70-b633-bc072772bfeb)
+
+![MinimaxPacmanGamePlay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/7ddd2b29-b171-4d82-bd12-fe7cc257aff7)
+
 (python pacman.py -p MinimaxAgent -a depth=2 -l smallClassic)
 
 Here is my implementation of a MinimaxAgent WITH alpha-beta pruning, which improved its speed of thinking:

@@ -15,13 +15,16 @@ I ultimately built up to implementing an intelligent search algorithm, A* (A-Sta
 (one that combines multiple heuristics appropriately) to incorporate domain knowledge into the Pacman Agent's 
 path-finding search through the maze to collect food pellets and power capsules.
 
-Watch the gifs below to watch my intelligent search Pacman agent in action! (GIFs may take some time to show up on your screen if connection is slow)
+Watch the gifs below to watch my intelligent search Pacman agent in action! 
+(GIFs may take some time to show up on your screen if connection is slow)
 
 Pacman using A* search to find best path to food pellets in the outer corners of the maze:
 ![A_Star_Corners_Heuristic](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/c05880b8-9851-4497-96e8-ced7551edad8)
 
+
 Pacman using A* search to navigate a big, complex maze towards a food pellet far away:
 ![A_Star_Food_Search](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/ef415cd7-6f0f-4c83-b020-9ea7aee7e0a9)
+
 
 ## Project 2: Intelligent Adversarial Gameplay Agents
 With path-finding algorithms implemented, the next step was to make my Pacman an actual gameplay agent, placed against enemy ghosts! For this project, I started out with a basic reflex agent implementation with a simple evaluation function, then continued building and creating an adversarial search pacman agent using minimax, alpha-beta pruning, then finally expectimax. I also tried my hand at improving the function to lead to a more efficient and effective decision-making as pacman tried to navigate the map, collect food pellets, all while avoiding game states in which it could run into a ghost and die.

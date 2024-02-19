@@ -13,7 +13,7 @@ I ultimately built up to implementing an intelligent search algorithm, A* (A-Sta
 (one that combines multiple heuristics appropriately) to incorporate domain knowledge into the Pacman Agent's 
 path-finding search through the maze to collect food pellets and power capsules.
 
-Play the videos below to watch my intelligent search Pacman agent in action!
+Watch the gifs below to watch my intelligent search Pacman agent in action! (GIFs may take some time to show up on this README if connection is slow)
 
 ![A_Star_Corners_Heuristic](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/c05880b8-9851-4497-96e8-ced7551edad8)
 ![A_Star_Food_Search](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/ef415cd7-6f0f-4c83-b020-9ea7aee7e0a9)

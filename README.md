@@ -51,5 +51,7 @@ Note that the ghosts I'm putting Pacman up against are moving in with a certain 
 (python pacman.py -p ExpectimaxAgent -a depth=3 -l smallClassic --frameTime=0.05 (using betterEvaluationFunction))
 
 ## Project 3: Even More Intelligent Agents, with Reinforement Learning
+(readme work in progress: MDPs, Value Iteration, Optimal Policies, Q-Values/Q-Learning)
 
 ## Final Project: Capture-The-Flag Pacman
+(flim + upload gifs)

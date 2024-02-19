@@ -15,7 +15,7 @@ path-finding search through the maze to collect food pellets and power capsules.
 
 Play the videos below to watch my intelligent search Pacman agent in action!
 
-https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/87403b71-105e-41a5-a2fe-cfd5fb3ee1c4
+![A_Star_Corners_Heuristic](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/c05880b8-9851-4497-96e8-ced7551edad8)
 
 https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/97442973-495b-4aa1-9c6c-e4cbaac86195
 

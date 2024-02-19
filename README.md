@@ -15,7 +15,7 @@ I ultimately built up to implementing an intelligent search algorithm, A* (A-Sta
 (one that combines multiple heuristics appropriately) to incorporate domain knowledge into the Pacman Agent's 
 path-finding search through the maze to collect food pellets and power capsules.
 
-Watch the gifs below to watch my intelligent search Pacman agent in action!<br /> 
+Watch the gifs below to watch my intelligent search Pacman agent in action!<br /><br /> 
 (GIFs may take some time to show up on your screen if connection is slow)
 
 Pacman using A* search to find best path to food pellets in the outer corners of the maze:

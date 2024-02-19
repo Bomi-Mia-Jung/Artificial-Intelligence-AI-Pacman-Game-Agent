@@ -16,8 +16,7 @@ path-finding search through the maze to collect food pellets and power capsules.
 Play the videos below to watch my intelligent search Pacman agent in action!
 
 ![A_Star_Corners_Heuristic](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/c05880b8-9851-4497-96e8-ced7551edad8)
-
-https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/97442973-495b-4aa1-9c6c-e4cbaac86195
+![A_Star_Food_Search](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/ef415cd7-6f0f-4c83-b020-9ea7aee7e0a9)
 
 ## Project 2: Intelligent Adversarial Gameplay Agents
 With path-finding algorithms implemented, the next step was to make my Pacman an actual gameplay agent, placed against enemy ghosts! For this project, I started out with a basic reflex agent implementation with a simple evaluation function, then continued building and creating an adversarial search pacman agent using minimax, alpha-beta pruning, then finally expectimax. I also tried my hand at improving the function to lead to a more efficient and effective decision-making as pacman tried to navigate the map, collect food pellets, all while avoiding game states in which it could run into a ghost and die.
@@ -27,19 +26,23 @@ First is my Pacman reflex agent, who performed well on both this tiny test map a
 ![reflextAgentGameplay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/548708c4-9e39-426c-992d-ed7e87922804)
 (python pacman.py -p ReflexAgent -l testClassic)
 
-Here is a slightly more sophisticated decision-making pacman, who considers not only the current state, but also future possible states and the strategies of his ghost opponents. The following shows my adversarial Pacman with minimax- note that he isn't too great at gameplay against ghosts just yet, and he ends up dying. But don't worry- we'll make him better as we go. Here's my first adversarial Pacman agent, whose thinking process is very slow and whose gamestate evaluation methods aren't great (he's not interested in food- he just wants to avoid his adversaries for now):
+Here is a slightly more sophisticated decision-making pacman, who considers not only the current state, but also future possible states and the strategies of his ghost opponents. 
+
+Here's my first adversarial Pacman agent, implemented with Minimax.
 
 ![minimaxGameplay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/d6519a2b-56b3-4b70-b633-bc072772bfeb)
 (python pacman.py -p MinimaxAgent -a depth=3 -l smallClassic)
+
+This first version of adversarial Pacman is not great- his thinking process  is very slow, and the way he evaluates game states aren't great (he's not interested in food- he just wants to avoid ending up near his adversaries for now). But not to worry- I keep improving him as I go!
 
 Next is my implementation of a MinimaxAgent WITH alpha-beta pruning:
 
 ![AlphaBetaGameplay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/99a349f8-e8a1-4675-b6eb-fa457a2175e3)
 (python pacman.py -p AlphaBetaAgent -a depth=3 -l smallClassic)
 
-Pacman is faster to think and ends up with a slightly better score- but we'll try to make him even better. 
+This Pacman is faster to think and ends up with a slightly better score. 
 
-The ghosts I'm putting him up against move in with a certain degree of randomness, but minimax assumes optimal behavior of opponents. Using the Expectimax adversarial gameplay algorithm, we can make Pacman perform better in such uncertain environments where chance is involved. Here is my final food-chomping, ghost-busting pacman with expectimax, combined with a better evaluation function!
+Note that the ghosts I'm putting Pacman up against are moving in with a certain degree of randomness, but the minimax algorithm assumes optimal behavior of opponents. Using the Expectimax adversarial gameplay algorithm, we can make Pacman perform better in such uncertain environments where chance is involved. Here is my final food-chomping, ghost-busting pacman with expectimax, combined with a better evaluation function!
 
 ![ExpectimaxGameplay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/c4ca55f5-723b-4d7c-abd7-a63a50cbf6ef)
 (python pacman.py -p ExpectimaxAgent -a depth=3 -l smallClassic --frameTime=0.05 (using betterEvaluationFunction))

@@ -41,7 +41,7 @@ Pacman is faster to think and ends up with a slightly better score- but we'll tr
 
 The ghosts I'm putting him up against move in with a certain degree of randomness, but minimax assumes optimal behavior of opponents. Using the Expectimax adversarial gameplay algorithm, we can make Pacman perform better in such uncertain environments where chance is involved. Here is my final food-chomping, ghost-busting pacman with expectimax, combined with a better evaluation function!
 
-
+![ExpectimaxGameplay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/c4ca55f5-723b-4d7c-abd7-a63a50cbf6ef)
 (python pacman.py -p ExpectimaxAgent -a depth=3 -l smallClassic --frameTime=0.05 (using betterEvaluationFunction))
 
 ## Project 3: Even More Intelligent Agents, with Reinforement Learning

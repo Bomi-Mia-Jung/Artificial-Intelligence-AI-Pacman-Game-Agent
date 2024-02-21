@@ -1,11 +1,14 @@
-Project 1: Intelligent Search Algorithms
+## Project 1: Intelligent Path Search Algorithms
+Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), I ultimately built up to implementing an intelligent search algorithm, A* (A-Star).
 
-Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), 
-I ultimately built up to implementing an intelligent search algorithm, A* (A-Star), and designed a non-trivial and consistent heuristic 
-(one that combines multiple heuristics appropriately) to incorporate domain knowledge into the Pacman Agent's search through the maze to collect food pellets.
+I designed a consistent heuristic that combines various heuristics appropriately to incorporate domain knowledge into the Pacman Agent's path-finding search through the maze to collect food and power capsules.
 
-Watch videos below to watch my intelligent search pacment agent in action!
+Watch the GIFs below to watch my intelligent search Pacman agent in action! (May take some time to show up on your screen):
 
-https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/87403b71-105e-41a5-a2fe-cfd5fb3ee1c4
+Pacman using A* search to find best path to food pellets in the outer corners of the maze:
+![A_Star_Corners_Heuristic_Pacman](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/8f1b9314-a517-4f55-b210-f7db02bf0a0f)
+<br /><br />
 
-https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/97442973-495b-4aa1-9c6c-e4cbaac86195
+Pacman searching a big, complex maze towards a far-away food pellet (colors indicate the path Pacman found using the A* algorithm):
+![A_Star_Food_Search_Pacman](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/fe72b8c8-f3cc-48c3-b946-59d2c254fab6)
+<br /><br />

@@ -54,8 +54,8 @@ Note that the ghosts I'm putting Pacman up against are moving in with a certain 
 ![ExpectimaxGameplay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/c4ca55f5-723b-4d7c-abd7-a63a50cbf6ef)
 <!-- python pacman.py -p ExpectimaxAgent -a depth=3 -l smallClassic --frameTime=0.05 (using betterEvaluationFunction) -->
 
-## Project 3: Even More Intelligent Agents, with Reinforement Learning
-(TODO: Upload source code + readme + gifs: MDPs, Value Iteration, Optimal Policies, Q-Values/Q-Learning)
+## Project 3: Even More Intelligent Agents, with Reinforcement Learning
+Upload Finished Project Description Here: source code + readme + gifs MDPs, Value Iteration, Optimal Policies, Q-Values/Q-Learning)
 
 ## Final Project: Capture-The-Flag Pacman
-TODO
+Upload Finished Project Description Here: source code + readme + gifs

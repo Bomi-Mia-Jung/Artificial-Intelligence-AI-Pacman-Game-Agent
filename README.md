@@ -10,10 +10,9 @@ Since they ask those who use &  extend their project not to publish solutions/im
 As you walk through this, please wait for GIFs to load on screen (+ zoom in for a clearer look)!
 
 ## Project 1: Intelligent Path Search Algorithms
-Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), 
-I ultimately built up to implementing an intelligent search algorithm, A* (A-Star), and designed a non-trivial and consistent heuristic 
-(one that combines multiple heuristics appropriately) to incorporate domain knowledge into the Pacman Agent's 
-path-finding search through the maze to collect food pellets and power capsules.
+Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), I ultimately built up to implementing an intelligent search algorithm, A* (A-Star).
+
+I designed a consistent heuristic that combines various heuristics appropriately to incorporate domain knowledge into the Pacman Agent's path-finding search through the maze to collect food and power capsules.
 
 Watch the GIFs below to watch my intelligent search Pacman agent in action! (May take some time to show up on your screen):
 

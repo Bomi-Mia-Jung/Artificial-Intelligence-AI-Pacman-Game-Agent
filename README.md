@@ -55,7 +55,8 @@ Note that the ghosts I'm putting Pacman up against are moving in with a certain 
 <!-- python pacman.py -p ExpectimaxAgent -a depth=3 -l smallClassic --frameTime=0.05 (using betterEvaluationFunction) -->
 
 ## Project 3: Even More Intelligent Agents, with Reinforcement Learning
-Upload Finished Project Description Here: source code + readme + gifs MDPs, Value Iteration, Optimal Policies, Q-Values/Q-Learning)
+Will be uploading finished Project Description Here! 
+(MDPs, Value Iteration, Optimal Policies, Q-Values/Q-Learning.)
 
 ## Final Project: Capture-The-Flag Pacman
 Upload Finished Project Description Here: source code + readme + gifs

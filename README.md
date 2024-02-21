@@ -59,7 +59,7 @@ We can make Pacman perform better in uncertain environments involving chance by 
 <!-- python pacman.py -p ExpectimaxAgent -a depth=3 -l smallClassic --frameTime=0.05 (using betterEvaluationFunction) -->
 
 ## Project 3: Even More Intelligent Agents, with Reinforcement Learning
-See Source Code. Will upload GIFs and explanations about my MDPs, Value Iteration, Optimal Policies, and Q-Values/Q-Learning implementations soon.
+See Source Code. Will upload GIFs and explanations about my MDP, Value Iteration, Optimal Policy, and Q-Learning implementations soon.
 
 ## Final Project: Capture-The-Flag Pacman
 See Source Code. Will upload GIFs and explanations about my final project gameplay soon.

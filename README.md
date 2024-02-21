@@ -55,7 +55,7 @@ The problem is that the minimax algorithm assumes **optimal** behavior of oppone
 
 We can make Pacman perform better in uncertain environments involving chance by using the Expectimax algorithm. Here is my **final food-chomping, ghost-busting Pacman** with Expectimax, combined with a better evaluation function:
 
-https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/86c5d347-2c5a-463f-bc98-c9a19b18e25a
+![ExpectimaxPacman](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/3540867b-82a8-4ff1-b99f-f35f1fbc7c81)
 <!-- python pacman.py -p ExpectimaxAgent -a depth=3 -l smallClassic --frameTime=0.05 (using betterEvaluationFunction) -->
 
 ## Project 3: Even More Intelligent Agents, with Reinforcement Learning

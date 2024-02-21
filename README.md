@@ -54,7 +54,8 @@ Next is my implementation of a MinimaxAgent WITH alpha-beta pruning. This Pacman
 The problem is that the minimax algorithm assumes **optimal** behavior of opponents, but the ghosts I'm putting Pacman against are moving in with a certain degree of randomness. 
 
 We can make Pacman perform better in uncertain environments involving chance by using the Expectimax algorithm. Here is my **final food-chomping, ghost-busting Pacman** with Expectimax, combined with a better evaluation function:
-![ExpectimaxPacman](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/a35be2e1-7baf-49ff-9e88-b86482cd989d)
+
+https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/86c5d347-2c5a-463f-bc98-c9a19b18e25a
 <!-- python pacman.py -p ExpectimaxAgent -a depth=3 -l smallClassic --frameTime=0.05 (using betterEvaluationFunction) -->
 
 ## Project 3: Even More Intelligent Agents, with Reinforcement Learning

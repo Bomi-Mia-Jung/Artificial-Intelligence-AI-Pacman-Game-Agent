@@ -7,7 +7,7 @@ This project implements and extends the AI Pacman Project developed by U.C. Berk
 
 Since they ask those who use &  extend their project not to publish solutions/implementations to their Pacman projects, I only uploaded the source code and video clips of my implemented and trained AI agents in action in this repo.
 
-As you walk through this, please wait for GIFs to load!
+As you walk through this, please wait for GIFs to load (+ zoom in for a clearer look)!
 
 ## Project 1: Intelligent Path Search Algorithms
 Starting out with basic search algorithms such as BFS (breadth-first search), DFS (depth-first search), and UCS (uniform cost search), 

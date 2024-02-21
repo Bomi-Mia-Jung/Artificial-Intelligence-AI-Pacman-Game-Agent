@@ -35,7 +35,7 @@ From here, you'll watch my Pacman get better & better at navigating the map and 
 
 First is my Pacman reflex agent, who performed well on both a tiny test map and a decently-sized medium map. 
 
-![reflextAgentGameplay](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/548708c4-9e39-426c-992d-ed7e87922804)
+![ReflexAgentPacman](https://github.com/Bomi-Mia-Jung/Artificial-Intelligence-AI-Pacman-Game-Agent/assets/77511489/0981131c-9ff7-4365-89b8-3012dd74c5a1)
 <!-- python pacman.py -p ReflexAgent -l testClassic -->
 
 Although he performed well in these test maps, it must be noted that he's making decisions solely based on the current percepts/input from the game environment. 
